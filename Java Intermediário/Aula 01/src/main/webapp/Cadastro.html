@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Cadastro de Produtos</h1>
+	<form action="Relatorio.jsp" method="post">
+		<fieldset>
+			<legend>Dados do Produto</legend>
+			
+			<p>
+				<label for="descricao">Descrição: </label>
+				<input type="text" id="descricao" name="descricao" placeholder="Nome do produto">
+			</p>
+			
+			<p>
+				<label for="valor">Valor: </label>
+				<input type="number" id="valor" name="valor" placeholder="Valor do produto">
+			</p>
+			
+			<p>
+				<label for="estoque">Estoque: </label>
+				<input type="number" id="estoque" name="estoque" placeholder="Quantidade em estoque">
+			</p>
+			
+			<p>Tipo:
+				<input type="radio" name="tipo" value="Perececível">
+				<label for="estoque">Perecível</label>
+				<input type="radio" name="tipo" value="Não Perecível">
+				<label for="estoque">Não Perecível</label>
+			</p>
+			
+			<p>
+				<input type="submit" value="Cadastrar Produto">
+			</p>
+		</fieldset>
+	</form>
+</body>
+</html>
